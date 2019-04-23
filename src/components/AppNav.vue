@@ -56,7 +56,8 @@ li {
   padding: 30px 10px;
   font-weight: 400;
   text-transform: uppercase;
-  border-top: 15px solid transparent;
+  border-top: 10px solid transparent;
+  cursor: pointer;
 
   &.router-link-exact-active {
     border-top-color: #222;

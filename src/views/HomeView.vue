@@ -1,19 +1,19 @@
 <template>
   <div class="HomeView">
-    <SectionPipa />
+    <SectionHeader />
     <SectionProjects />
     <SectionCounters />
   </div>
 </template>
 
 <script>
-import SectionPipa from '@/components/SectionPipa';
+import SectionHeader from '@/components/SectionHeader';
 import SectionProjects from '@/components/SectionProjects';
 import SectionCounters from '@/components/SectionCounters';
 
 export default {
   components: {
-    SectionPipa,
+    SectionHeader,
     SectionProjects,
     SectionCounters,
   }
